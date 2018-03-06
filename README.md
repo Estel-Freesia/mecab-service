@@ -62,10 +62,10 @@ $ curl -X POST http://localhost:5000/mecab/v1/parse-ipadic \
 ```
 {
   "dict": "ipadic",
-  "items": [
+  "results": [
     {
       "id": 0,
-      "results": [
+      "items": [
         {
           "原型": "関数",
           "品詞": "名詞",
@@ -122,10 +122,10 @@ $ curl -X POST http://localhost:5000/mecab/v1/parse-ipadic \
 ```
 {
   "dict": "ipadic",
-  "items": [
+  "results": [
     {
       "id": 0,
-      "results": [
+      "items": [
         {
           "原型": "関数",
           "品詞": "名詞",
@@ -166,7 +166,7 @@ $ curl -X POST http://localhost:5000/mecab/v1/parse-ipadic \
     },
     {
       "id": 1,
-      "results": [
+      "items": [
         {
           "原型": "関数",
           "品詞": "名詞",
@@ -225,10 +225,10 @@ $ curl -X POST http://localhost:5000/mecab/v1/parse-neologd \
 ```
 {
   "dict": "neologd",
-  "items": [
+  "results": [
     {
       "id": 0,
-      "results": [
+      "items": [
         {
           "原型": "関数型プログラミング",
           "品詞": "名詞",
@@ -245,7 +245,7 @@ $ curl -X POST http://localhost:5000/mecab/v1/parse-neologd \
     },
     {
       "id": 1,
-      "results": [
+      "items": [
         {
           "原型": "関数",
           "品詞": "名詞",
